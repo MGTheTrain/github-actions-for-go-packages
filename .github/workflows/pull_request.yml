@@ -19,3 +19,4 @@ jobs:
           TEST_WORKING_DIRECTORY: ./test
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
           SNYK_ORGANIZATION_ID: ${{ secrets.SNYK_ORGANIZATION_ID }}
+          
