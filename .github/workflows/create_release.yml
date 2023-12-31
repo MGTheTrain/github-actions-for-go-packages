@@ -55,13 +55,3 @@ jobs:
           CLOUDSMITH_API_KEY: ${{ secrets.CLOUDSMITH_API_KEY }}
           SRC_WORKING_DIRECTORY: ./src
           PACKAGE_VERSION: "0.1.0"
-
-
-      # mkdir -p github.com/MGTheTrain/github-actions-for-go-packages@v0.1.0
-      # git clone git@github.com:MGTheTrain/github-actions-for-go-packages.git github.com/MGTheTrain/github-actions-for-go-packages@v0.1.0
-      # cd github.com/MGTheTrain/github-actions-for-go-packages@v0.1.0
-      # git checkout v0.1.0
-
-      # rm -rf .git/
-      # cd ../../../
-      # find -type f | while read f; do zip v0.1.0.zip "$f"; done
