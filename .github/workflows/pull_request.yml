@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  ci-ct-job-for-rust-libraries:
+  ci-ct-job-for-go-libraries:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -19,3 +19,4 @@ jobs:
           TEST_WORKING_DIRECTORY: ./test
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
           SNYK_ORGANIZATION_ID: ${{ secrets.SNYK_ORGANIZATION_ID }}
+          
