@@ -1,0 +1,21 @@
+name: CI/CT workflow for Go libraries
+
+on:
+  pull_request:
+    branches:
+      - develop
+      - master
+
+jobs:
+  ci-ct-job-for-rust-libraries:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: Test Go repository
+        uses: MGTheTrain/github-actions/.github/actions/test-go-repository@main
+        with:
+          SRC_WORKING_DIRECTORY: ./src
+          TEST_WORKING_DIRECTORY: ./test
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_ORGANIZATION_ID: ${{ secrets.SNYK_ORGANIZATION_ID }}
