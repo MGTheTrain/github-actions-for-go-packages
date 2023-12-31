@@ -1,4 +1,4 @@
-module github.com/MGTheTrain/github-actions-for-go-packages/src/domain/models
+module models
 
 go 1.21.3
 

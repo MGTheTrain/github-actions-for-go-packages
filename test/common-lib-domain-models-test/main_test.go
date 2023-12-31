@@ -3,7 +3,7 @@ package main_test
 import (
 	"testing"
 
-	"github.com/MGTheTrain/github-action-workflow-samples/libraries/go/common-lib/src/domain/models"
+	"models"
 
 	"github.com/stretchr/testify/assert"
 )

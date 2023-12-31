@@ -3,7 +3,8 @@ package main_test
 import (
 	"testing"
 
-	"github.com/MGTheTrain/github-action-workflow-samples/libraries/go/common-lib/src/web/dtos"
+	"dtos"
+
 	"github.com/stretchr/testify/assert"
 )
 

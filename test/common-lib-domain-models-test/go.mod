@@ -2,11 +2,11 @@ module main_test
 
 go 1.21.3
 
-replace github.com/MGTheTrain/github-actions-for-go-packages/src/domain/models => ../../src/domain/models
+replace models => ../../src/domain/models
 
 require (
-	github.com/MGTheTrain/github-action-workflow-samples/libraries/go/common-lib/src/domain/models v0.0.0-20231231210031-185c1531d9a0
 	github.com/stretchr/testify v1.8.4
+	models v0.0.0-00010101000000-000000000000
 )
 
 require (

@@ -1,4 +1,4 @@
-module github.com/MGTheTrain/github-actions-for-go-packages/src/web/dtos
+module dtos
 
 go 1.21.3
 
