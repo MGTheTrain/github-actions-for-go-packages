@@ -2,7 +2,10 @@ module main_test
 
 go 1.21.3
 
+replace github.com/MGTheTrain/github-actions-for-go-packages/src/web/dtos => ../../src/web/dtos
+
 require (
+	github.com/MGTheTrain/github-action-workflow-samples/libraries/go/common-lib/src/web/dtos v0.0.0-20231231210031-185c1531d9a0
 	github.com/stretchr/testify v1.8.4
 )
 
