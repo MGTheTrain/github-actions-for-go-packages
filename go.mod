@@ -1,4 +1,4 @@
-module your_project
+module github.com/MGTheTrain/github-actions-for-go-packages
 
 go 1.16
 
