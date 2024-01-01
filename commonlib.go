@@ -1,4 +1,4 @@
-package main
+package github_actions_for_go_packages
 
 import (
 	"dtos"
@@ -10,7 +10,7 @@ func StringPointer(s string) *string {
 	return &s
 }
 
-func main() {
+func Test() {
 	// Initialize the struct with valid data
 	ur := &dtos.UserRequestDto{
 		UserName:     StringPointer("username"),

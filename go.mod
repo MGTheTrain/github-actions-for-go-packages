@@ -1,4 +1,4 @@
-module cloudsmith.io/commonlib
+module github.com/MGTheTrain/github-actions-for-go-packages
 
 go 1.21.3
 
